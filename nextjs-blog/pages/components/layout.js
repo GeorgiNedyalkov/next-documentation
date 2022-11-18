@@ -1,11 +1,11 @@
-import Head from "next/head"
-import Image from "next/image"
-import styles from "./layout.module.css"
-import utilStyles from "../../styles/utils.module.css"
-import Link from "next/link"
+import Head from "next/head";
+import Image from "next/image";
+import styles from "./layout.module.css";
+import utilStyles from "../../styles/utils.module.css";
+import Link from "next/link";
 
-const name = "Georgi"
-export const siteTitle = "Next.js Sample Website"
+const name = "Georgi";
+export const siteTitle = "Next.js Sample Website";
 
 export default function Layout({ children, home }) {
   return (
@@ -36,7 +36,7 @@ export default function Layout({ children, home }) {
               width={144}
               alt=""
             />
-            <h1 className={utilStyles.heading2x1}>{name}</h1>
+            <h1 className={utilStyles.heading2X1}>{name}</h1>
           </>
         ) : (
           <>
@@ -65,5 +65,5 @@ export default function Layout({ children, home }) {
         </div>
       )}
     </div>
-  )
+  );
 }
